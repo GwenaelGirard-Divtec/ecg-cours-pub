@@ -1,9 +1,9 @@
 # Cours ECG - Publicité
 
 ## Thèmes abordés
-- Définition de la publicité
-- Évolution de la publicité
-- Supports de communication publicitaire
-- Critiques et opposition à la publicité
-- Aspects économiques
-- Propagande de la publicité
+- Définition de la publicité (Amine)
+- Évolution de la publicité (Bastien)
+- Supports de communication publicitairev (Alan)
+- Critiques et opposition à la publicité (Gabriel)
+- Aspects économiques (Sven)
+- Propagande de la publicité (Bilel)
