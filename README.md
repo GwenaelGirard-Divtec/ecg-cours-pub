@@ -7,3 +7,4 @@
 - Critiques et opposition à la publicité (Gabriel)
 - Aspects économiques (Sven)
 - Propagande de la publicité (Bilel)
+- Impact écologique de la publicité (Sven)
