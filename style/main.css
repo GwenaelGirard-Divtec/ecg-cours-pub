@@ -8,7 +8,7 @@
     --default-padding: 1em;
 
     --header-height: 75px;
-    --footer-height: 200px;
+    --footer-height: 100px;
     --sidebar-close-width: 64px;
     --sidebar-open-width: 300px;
 
@@ -90,7 +90,7 @@ figcaption {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9),
                 0 0 0 100vw rgba(0, 0, 0, 0.5);
     color: white;
-    background: #577399;
+    background: var(--color-primary-200);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -241,6 +241,11 @@ aside .chapitres li a {
 
 aside .chapitres li a {
     white-space: nowrap;
+    outline: none;
+}
+
+aside .chapitres li.active a i {
+    color: var(--color-primary-200);
 }
 
 aside .chapitres li i {
@@ -273,8 +278,13 @@ footer {
     grid-column: 1 / span 2;
     height: var(--footer-height);
     padding-left: 5em;
+    transition: var(--transition);
 }
 
 footer * {
     color: var(--color-primary-200);
+}
+
+aside.aside-open ~ footer {
+    padding-left: calc(5em + 300px);
 }

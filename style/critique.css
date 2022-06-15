@@ -2,17 +2,16 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0 1.2vw;
+    gap: 0 8px;
     grid-template-areas:
     "div-histoire-p div-image-p";
 }
 .grid_1 { grid-area: div-histoire-p; }
 .grid_2 { grid-area: div-image-p; }
-
 .div-quote-propagande blockquote {
     margin: 0;
-    border: solid 1px var(--color-primary-200);
-    padding: 0 1em 0 1em;
+    background: #ffffff;
+    padding: 1em;
     border-radius: 1em;
 }
 
@@ -27,22 +26,9 @@
     margin-right: 1vw;
 }
 
-.div-resumer-propagande a, .div-source-propagande a {
+.main-propagande a {
     text-decoration: none;
     color: var(--color-primary-200);
     font-size: 1.05em;
 }
 
-.div-resumer-propagande a:hover, .div-source-propagande a:hover {
-    text-decoration: underline;
-}
-
-.div-image-propagande figure, .div-histoire-propagande h3 {
-    margin-top: 2vw;
-}
-
-.div-video-propagade {
-    margin-top: 2vw;
-    display: flex;
-    justify-content: center;
-}
