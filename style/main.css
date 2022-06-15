@@ -273,8 +273,13 @@ footer {
     grid-column: 1 / span 2;
     height: var(--footer-height);
     padding-left: 5em;
+    transition: var(--transition);
 }
 
 footer * {
     color: var(--color-primary-200);
+}
+
+aside.aside-open ~ footer {
+    padding-left: calc(5em + 300px);
 }
