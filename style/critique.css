@@ -1,0 +1,34 @@
+.container-propagande {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 8px;
+    grid-template-areas:
+    "div-histoire-p div-image-p";
+}
+.grid_1 { grid-area: div-histoire-p; }
+.grid_2 { grid-area: div-image-p; }
+.div-quote-propagande blockquote {
+    margin: 0;
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.div-image-propagande figure {
+    margin-right: 0;
+    float: right;
+}
+
+.div-source-propagande li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 1vw;
+}
+
+.main-propagande a {
+    text-decoration: none;
+    color: var(--color-primary-200);
+    font-size: 1.05em;
+}
+
