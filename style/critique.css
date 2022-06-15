@@ -17,8 +17,8 @@
 
 .div-image-propagande figure {
     margin-right: 0;
+    margin-bottom: 3em;
     padding-bottom: 4em;
-    float: right;
 }
 
 .div-source-propagande li {
@@ -39,7 +39,7 @@
 }
 
 .lien-netflix img{
-    width: 15%;
+    width: 10%;
 }
 
 .lien-netflix div{
@@ -52,7 +52,28 @@
     background-color: red;
     color: white;
     padding: 1em 1.5em;
-    position: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+
+blockquote.quote {
+    position: relative;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 80%;  /* create space for the quotes */
+    color: #f5982e;
+    margin: 1rem auto 2rem;
+}
+blockquote {
+    position: relative;
+    padding-left: 1em;
+    border-left: 0.2em solid #f5982e;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+blockquote:before, blockquote:after {
+    color: #039be5;
+    font-size: 34px;
 }
