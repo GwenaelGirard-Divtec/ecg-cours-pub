@@ -1,9 +1,9 @@
 :root {
-    --color-primary-200: #577399;
-    --color-primary-100: #BDD5EA;
-    --white: #F7F7FF;
-    --black-200: #2e3136;
-    --black-100: #3f4249;
+    --color-primary-200: #f5982e;
+    --color-primary-100: #ffe3c8;
+    --white: #fffcf7;
+    --black-200: #36322e;
+    --black-100: #49443f;
 
     --default-padding: 1em;
 
@@ -268,10 +268,11 @@ aside.aside-open + main {
 FOOTER
 ******************************************/
 footer {
-    z-index: 4000;
+    z-index: 1000;
     background-color: var(--color-primary-100);
     grid-column: 1 / span 2;
     height: var(--footer-height);
+    padding-left: 5em;
 }
 
 footer * {
