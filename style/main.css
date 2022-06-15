@@ -8,7 +8,7 @@
     --default-padding: 1em;
 
     --header-height: 75px;
-    --footer-height: 200px;
+    --footer-height: 100px;
     --sidebar-close-width: 64px;
     --sidebar-open-width: 300px;
 
@@ -241,6 +241,11 @@ aside .chapitres li a {
 
 aside .chapitres li a {
     white-space: nowrap;
+    outline: none;
+}
+
+aside .chapitres li.active a i {
+    color: var(--color-primary-200);
 }
 
 aside .chapitres li i {
