@@ -90,7 +90,7 @@ figcaption {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9),
                 0 0 0 100vw rgba(0, 0, 0, 0.5);
     color: white;
-    background: #577399;
+    background: var(--color-primary-200);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -273,8 +273,13 @@ footer {
     grid-column: 1 / span 2;
     height: var(--footer-height);
     padding-left: 5em;
+    transition: var(--transition);
 }
 
 footer * {
     color: var(--color-primary-200);
+}
+
+aside.aside-open ~ footer {
+    padding-left: calc(5em + 300px);
 }
