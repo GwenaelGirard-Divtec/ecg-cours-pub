@@ -1,0 +1,21 @@
+.container-propagande {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 8px;
+    grid-template-areas:
+    "div-histoire-p div-image-p";
+}
+.grid_1 { grid-area: div-histoire-p; }
+.grid_2 { grid-area: div-image-p; }
+.div-quote-propagande blockquote {
+    margin: 0;
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+figure {
+    margin-right: 0;
+    float: right;
+}
