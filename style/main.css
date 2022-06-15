@@ -243,6 +243,10 @@ aside .chapitres li a {
     white-space: nowrap;
 }
 
+aside .chapitres li.active a i {
+    color: var(--color-primary-200);
+}
+
 aside .chapitres li i {
     font-size: 32px;
     margin-right: .5em;
