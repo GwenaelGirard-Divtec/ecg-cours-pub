@@ -1,0 +1,13 @@
+#img_pub_tel {
+    float: right;
+    margin: 2em;
+    width: 250px;
+}
+
+#list_img_wraper {
+    display: inline-block;
+}
+
+main ul {
+    line-height: 1.9em;
+}
