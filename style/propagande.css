@@ -15,7 +15,20 @@
     border-radius: 1em;
 }
 
-figure {
+.div-image-propagande figure {
     margin-right: 0;
     float: right;
 }
+
+.div-source-propagande li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 1vw;
+}
+
+.main-propagande a {
+    text-decoration: none;
+    color: var(--color-primary-200);
+    font-size: 1.05em;
+}
+
