@@ -17,6 +17,7 @@
 
 .div-image-propagande figure {
     margin-right: 0;
+    padding-bottom: 4em;
     float: right;
 }
 
@@ -32,3 +33,26 @@
     font-size: 1.05em;
 }
 
+.lien-netflix{
+    display: flex;
+    align-content: space-between;
+}
+
+.lien-netflix img{
+    width: 15%;
+}
+
+.lien-netflix div{
+    align-content: space-around;
+    margin: 3em 2em;
+
+}
+
+.lien-netflix div a {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    position: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
