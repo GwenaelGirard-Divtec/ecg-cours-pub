@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/popup.css">
 </head>
 <body>
 <div id="zoomed">
@@ -21,15 +20,7 @@
     <img id="zoomed-img" src="">
     <p></p>
 </div>
-<div id="popup" class="visible">
-    <span class="material-icons">close</span>
-    <div class="popup-content">
-        <span class="material-icons">newspaper</span>
-        <a href="https://github.com/GwenaelGirard-Divtec/ecg-cours-pub" target="_blank">
-            <p>Cliquez sur le lien et profitez d'un abonnement de 1 an à notre nouveau journal !</p>
-        </a>
-    </div>
-</div>
+
 <div id="zoomed-block-page"></div>
 <header>
     <div class="header-titre">
@@ -40,12 +31,12 @@
     <nav>
         <ul class="chapitres">
             <li class="controls"><i class="material-icons aside-button">menu</i></li>
-            <li class="element"><i class="material-icons">menu_book</i><span>Définition </span></li>
-            <li class="element"><i class="material-icons">trending_up</i><span>Évolution</span></li>
-            <li class="element"><i class="material-icons">headset_mic</i><span>Supports de communication</span></li>
-            <li class="element"><i class="material-icons">front_hand</i><span>Critiques et opposition</span></li>
-            <li class="element"><i class="material-icons">paid</i><span>Économie </span></li>
-            <li class="element"><i class="material-icons">campaign</i><span>Propagande</span></li>
+            <li class="element"><a href="Definition.html"><i class="material-icons">menu_book</i><span>Définition </span></a></li>
+            <li class="element"><a href="communication_publicitaire.html"><i class="material-icons">trending_up</i><span>Évolution</span></a></li>
+            <li class="element"><a href="evolution.html"><i class="material-icons">headset_mic</i><span>Supports de communication</span></a></li>
+            <li class="element"><a href="critique.html"><i class="material-icons">front_hand</i><span>Critiques et opposition</span></a></li>
+            <li class="element"><a href="depenses-publicitaires.html"><i class="material-icons">paid</i><span>Économie </span></a></li>
+            <li class="element"><a href="propagande.html"><i class="material-icons">campaign</i><span>Propagande</span></a></li>
         </ul>
     </nav>
 </aside>
@@ -61,11 +52,8 @@
         <img src="img/definition-pub/PubIdeaux.jpg" alt="le chat">
         <figcaption>Exemple d'une pub pour l'environnement faite par la mairie de Paris</figcaption>
     </figure>
-
-    <figure>
-        <img src="img/definition-pub/PubIdeaux.jpg" alt="le chat">
-        <figcaption>Exemple d'une pub pour l'environnement faite par la mairie de Paris</figcaption>
-    </figure>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/voV97IVv0gI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     <!-- Créez votre page ici -->
@@ -79,6 +67,5 @@
 
 
 <script src="js/main.js"></script>
-<script src="js/popup.js"></script>
 </body>
 </html>
