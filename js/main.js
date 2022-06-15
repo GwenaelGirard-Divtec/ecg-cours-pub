@@ -21,10 +21,9 @@ let zoomedOutImg = document.getElementById('zoomed-img');
 let zoomedOutCaption = document.querySelector('#zoomed p');
 let zoomedOutClose = document.querySelector('#zoomed span');
 images.forEach(img => {
-    console.log(img)
     img.addEventListener('click', function(e) {
         zoomedOutCaption.innerHTML = e.target.parentNode.querySelector("figcaption").innerHTML;
-        zoomedOutImg.src = e.target.parentNode.querySelector("img").src;
+        zoomedOutImg.src = e.target.src;
         zoomedOut.classList.add('visible');
     })
 })
