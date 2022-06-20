@@ -15,10 +15,14 @@
     border-radius: 1em;
 }
 
-.div-image-propagande figure {
-    margin-right: 0;
-    margin-bottom: 3em;
-    padding-bottom: 4em;
+.grid_2{
+    padding: 1em;
+}
+
+.grid_2 figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
 }
 
 .div-source-propagande li {
@@ -39,7 +43,7 @@
 }
 
 .lien-netflix img{
-    width: 10%;
+    width: 15%;
 }
 
 .lien-netflix div{
@@ -56,7 +60,6 @@
     text-transform: uppercase;
 }
 
-
 blockquote.quote {
     position: relative;
     text-align: center;
@@ -69,11 +72,11 @@ blockquote {
     position: relative;
     padding-left: 1em;
     border-left: 0.2em solid #f5982e;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
     font-weight: 100;
 }
 blockquote:before, blockquote:after {
     color: #039be5;
-    font-size: 34px;
+    font-size: 30px;
 }
