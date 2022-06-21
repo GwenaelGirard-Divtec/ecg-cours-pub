@@ -15,9 +15,14 @@
     border-radius: 1em;
 }
 
-.div-image-propagande figure {
-    margin-right: 0;
-    float: right;
+.grid_2{
+    padding: 1em;
+}
+
+.grid_2 figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
 }
 
 .div-source-propagande li {
@@ -32,3 +37,46 @@
     font-size: 1.05em;
 }
 
+.lien-netflix{
+    display: flex;
+    align-content: space-between;
+}
+
+.lien-netflix img{
+    width: 15%;
+}
+
+.lien-netflix div{
+    align-content: space-around;
+    margin: 3em 2em;
+
+}
+
+.lien-netflix div a {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+blockquote.quote {
+    position: relative;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 80%;  /* create space for the quotes */
+    color: #f5982e;
+    margin: 1rem auto 2rem;
+}
+blockquote {
+    position: relative;
+    padding-left: 1em;
+    border-left: 0.2em solid #f5982e;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+blockquote:before, blockquote:after {
+    color: #039be5;
+    font-size: 30px;
+}
